@@ -1,7 +1,7 @@
 JAVASCRIPT CHEAT SHEET !!
 
 
-//// we can connect the javascript file using src attribute in script tag 
+// we can connect the javascript file using src attribute in script tag 
 <script src="*NAME OF THE FILE *"></script>
 
 
