@@ -30,6 +30,7 @@ Math.round(a,ab);
 
 /// OPERAtORS    
 ==  EQUALS TO 
+=== DO GOOD COMPARISON BETWEEN DATATYPES
 <
 >
 
@@ -39,3 +40,13 @@ Math.round(a,ab);
 it will just compare the strings alphabet by alphabet and check which comes first
 ALL CAPITAL LETTERS COME BEFORE THE LOWER CASE LETTERS
 
+
+
+///////////////////////////////////////////////////////////
+                COERSION RULES
+undefined = false;
+null = false;
+0= false;
+any other number (including negative) = true;
+""=false;
+"any other string" = true;      "false"=true;
