@@ -50,3 +50,9 @@ null = false;
 any other number (including negative) = true;
 ""=false;
 "any other string" = true;      "false"=true;
+
+///////////////////////////////////////////////////////////
+                STRINGS 
+if text conatains single quotes enclose string in double ones 
+and 
+if text co
