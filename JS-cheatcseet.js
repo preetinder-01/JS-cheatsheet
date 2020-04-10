@@ -53,6 +53,8 @@ any other number (including negative) = true;
 
 ///////////////////////////////////////////////////////////
                 STRINGS 
-if text conatains single quotes enclose string in double ones 
-and 
-if text co
+if text contains single quotes enclose string in double ones 
+                        and 
+if text contains double quotes then enclose string in single quotes
+
+IF string contains 
