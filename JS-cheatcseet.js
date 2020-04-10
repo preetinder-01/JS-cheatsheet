@@ -9,7 +9,7 @@ JAVASCRIPT CHEAT SHEET !!
 <script></script>   //used in body tag 
 
 
-////// to get html element by id just use 
+////// to use html element by id just use like a button  
 document.getElementById("*ID GOES HERE*")
 
 
@@ -75,3 +75,10 @@ charAt();           ,gives you character at that place
 indexOf("CHARACTER");      if there is no character in the string then  it will return -1
 
 term1.indexOf(term2)        ,it checks whether term2 exists in term 1or not
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+
