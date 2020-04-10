@@ -56,5 +56,22 @@ any other number (including negative) = true;
 if text contains single quotes enclose string in double ones 
                         and 
 if text contains double quotes then enclose string in single quotes
+        
+can escape the  quote by using backslash \
 
-IF string contains 
+IF string contains both types of quotse ::  in this case choose one quote for string that is like double quote for string and then use 
+                                            backslash for quotes inside the sentence
+
+                                            //  backslash  '\
+                                            is a special character
+                                            using \ alone cleras the last character befor it
+                                           use twice \\ wil print one backslash
+
+use addition to concatenate strings   
+substring(a,b)      ,a is index NodeIterator. of first letter adn b is the index no. of the character next to the last character
+substring(x)        ,will strat from x and goes on till last of the string
+substr()
+charAt();           ,gives you character at that place
+indexOf("CHARACTER");      if there is no character in the string then  it will return -1
+
+term1.indexOf(term2)        ,it checks whether term2 exists in term 1or not
