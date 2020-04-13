@@ -86,3 +86,17 @@ function functionName(parameter){
     code here; 
 }
 
+///////////////////////////////////////////////////////////
+//
+//                      ARRAYS
+
+var arrayname=[];
+    // then assign starting from index 0;
+
+            OR 
+var arrayname =[item1,
+                item2,
+                item3,
+                .....];
+
+ alsocan assign using for looop                //  
