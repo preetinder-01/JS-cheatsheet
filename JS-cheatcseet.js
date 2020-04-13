@@ -99,4 +99,6 @@ var arrayname =[item1,
                 item3,
                 .....];
 
- alsocan assign using for looop                //  
+    //  also can assign using for loop   
+    
+    arrayname.length    // property used to know about the length of an array
