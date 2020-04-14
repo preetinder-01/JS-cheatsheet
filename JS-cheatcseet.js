@@ -12,6 +12,11 @@ JAVASCRIPT CHEAT SHEET !!
 ////// to use html element by id just use like a button  
 document.getElementById("*ID GOES HERE*")
 
+////// TO ADD EVENT TO THE ELEMNT OF HTML
+document.getElementById("ID GOES HERE").addEventListener("EVENT HERE",
+function(event){alert("Hey! this works")});
+
+
 
 //////to create a variable 
 use var NAME;                   use "" or '' to store a character or string to a variable
@@ -102,3 +107,73 @@ var arrayname =[item1,
     //  also can assign using for loop   
     
     arrayname.length    // property used to know about the length of an array
+    arrayname.push("ITEM GOES HERE");       // function used to add elements in array
+    arrayname.sort();                       // funtion used tp sort the array
+
+    ///////////////////////////////////////////////////////////////////
+    //
+    //                      OBJECTS
+
+    var objectname ={};             //use curly brackets instead of square bracekts as in case of array
+
+    // then                                 //var person ={};
+    objectname.property="value";            // person.firstName="Sam";
+
+    
+//  FOR MAKING THE ARRAY OF OBJECTS WE NEED TO PUSH THE OBJECT INTO THE ARRAY
+arrayname.push(objectname);
+// INSTEAD OF PUSHING THE OBJECTS INTO THE ARRAY WE CAN DRIECTLY MAKE THE  ARRAY OF OBJECTS BY USING FOLLOWING FORMAT
+var arrayname = [
+    {
+    // name: "hammer",
+    // cost : 9.99,             OBJECT 1
+    // id : 101,
+    // picture : "hammer.jpg" 
+    },
+    {
+        // name:"screwdriver",
+        // cost : 4.99,         OBJECT 2
+        // id : 102,
+        // picture : "screwdriver.jpg"
+    },
+    {
+        // name:"saw",
+        // cost : 12.99,         OBJECT 3
+        // id : 103,
+        // picture : "saw.jpg"
+    }
+];
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+/////
+/////                   METHODS
+
+
+var objectname ={};
+objectname.functionName = function(){          METHOD CREATION
+    function code;
+}
+
+objectname.functionName();              function calling
+
+// 
+// INSTEAD OF USING OBJECCTNAME AGAIN AND AGAIN WE CAN USE this operator
+
+    this.functionName;      // but csn be used in the scope of that object
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//             EVENT
+
+document.addEventListener("EVENT",second parameter);        //document is writtemn as its for html 
+function onClick(event){                                    ("click",onClick)
+    do something();
+};
+
+
+                            OR 
+document.addEventListener("click",function(event){
+    doSomething();
+})                            
