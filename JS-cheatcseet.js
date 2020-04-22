@@ -193,3 +193,18 @@ document.addEventListener("click",function(event){
                         WINDOW 
                         DOCUMENT (represents html document)
                         
+//
+//                  SELECTING AN ELEMENT
+
+
+//  selecting an element by id
+document.getElementById("..");
+
+//  selectring elemnets by class name   (CAN SELECT MORE THAN ONE )
+document.getElementsByClassName("..");
+
+// selecting elements by tag name 
+document.getElementsByTagName("..");
+
+// using query selector  ( query is a CSS selector)
+document.querySelector(".class  OR #id  OR any other complex css selector")
