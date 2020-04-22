@@ -16,6 +16,13 @@ document.getElementById("*ID GOES HERE*")
 document.getElementById("ID GOES HERE").addEventListener("EVENT HERE",
 function(event){alert("Hey! this works")});
 
+// to load all the js file before
+window.addEventListener("load",function(){...});                    // it loads all the html document at once it is trying to 
+                                                                    // acces only window ..document load(everythinh=g on the page images assets CSS) 
+                                                                    // < load event trigger < function run and then code
+
+// this triggers the event when whole html is loaded
+document.addEventListener("DOMContentLoaded",function(){....});
 
 
 //////to create a variable 
@@ -177,3 +184,12 @@ function onClick(event){                                    ("click",onClick)
 document.addEventListener("click",function(event){
     doSomething();
 })                            
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+                        DOM
+                        WINDOW 
+                        DOCUMENT (represents html document)
+                        
