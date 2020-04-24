@@ -207,4 +207,26 @@ document.getElementsByClassName("..");
 document.getElementsByTagName("..");
 
 // using query selector  ( query is a CSS selector)
-document.querySelector(".class  OR #id  OR any other complex css selector")
+document.querySelector(".class  OR #id  OR any other complex css selector")     it selects only the  first element appearing oin the html document
+document.querySelectorAll("..............................................")     it selects all the elemnt with that property but we need to use array method to apply the code on all
+                                                                                assign these above mentioned to a variable and then apply changs to variable
+
+//  LIKE THIS   EXAMPLE
+// var block = document.getElementById("block");
+
+
+// block.style.width = "100px";
+// block.style.height = "100px";
+// block.style.backgroundColor = "red";
+
+// block.style.position = "absolute";
+
+// document.addEventListener("click",function(event){
+//     block.style.left= event.clientX + "px";
+//     block.style.top= event.clientY +"px";
+// })
+
+
+
+//  to use input from keyboard into a input text box in javascript
+var xx = parseDATATYPE(VAR OF INPUT BOX AS DECLARED IN JS.value),
