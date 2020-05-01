@@ -230,3 +230,8 @@ document.querySelectorAll("..............................................")     
 
 //  to use input from keyboard into a input text box in javascript
 var xx = parseDATATYPE(VAR OF INPUT BOX AS DECLARED IN JS.value),
+
+// to create new element 
+document.createElement("NAME OF THE ELEMENT");      it just creates the elemnt it doesn't adds to the html page
+
+// we nee dto assign some text to addd elemnt to a page
