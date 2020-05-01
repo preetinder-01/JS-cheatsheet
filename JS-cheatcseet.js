@@ -235,3 +235,7 @@ var xx = parseDATATYPE(VAR OF INPUT BOX AS DECLARED IN JS.value),
 document.createElement("NAME OF THE ELEMENT");      it just creates the elemnt it doesn't adds to the html page
 
 // we nee dto assign some text to addd elemnt to a page
+element.appendChild(VAR);
+
+//  to assign a element between two elements
+element.insertBefore(newElement,referenceElement)
