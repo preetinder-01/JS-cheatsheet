@@ -5,9 +5,6 @@ JAVASCRIPT CHEAT SHEET !!
 <script src="*NAME OF THE FILE *"></script>
 
 
-/////to add javascript by id use script tag 
-<script></script>   //used in body tag 
-
 
 ////// to use html element by id just use like a button  
 document.getElementById("*ID GOES HERE*")
