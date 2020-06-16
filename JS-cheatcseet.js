@@ -1,6 +1,5 @@
 JAVASCRIPT CHEAT SHEET !!
 
-
 // we can connect the javascript file using src attribute in script tag 
 <script src="*NAME OF THE FILE *"></script>
 
@@ -73,11 +72,11 @@ IF string contains both types of quotse ::  in this case choose one quote for st
 
                                             //  backslash  '\
                                             is a special character
-                                            using \ alone cleras the last character befor it
+                                            using \ alone clears the last character befor it
                                            use twice \\ wil print one backslash
 
 use addition to concatenate strings   
-substring(a,b)      ,a is index NodeIterator. of first letter adn b is the index no. of the character next to the last character
+substring(a,b)      ,a is index NodeIterator. of first letter and b is the index no. of the character next to the last character
 substring(x)        ,will strat from x and goes on till last of the string
 substr()
 charAt();           ,gives you character at that place
