@@ -235,3 +235,18 @@ element.appendChild(VAR);
 
 //  to assign a element between two elements
 element.insertBefore(newElement,referenceElement)
+
+// to remove element from page
+element.removeChild(child element);
+
+// to list all the child elements of a element
+element.childNodes      returns child elements with other info also
+
+element.children;       only returns the child elements
+
+//  to get first or last child element or nth
+element.firstElementchild
+element.lastElementChild
+element.children[n-1]        n-1 because of index starts from 0
+
+
